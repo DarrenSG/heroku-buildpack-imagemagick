@@ -17,7 +17,7 @@ And add it into your `app.json`:
 ```json
   "buildpacks": [
     {
-      "url": "https://github.com/drnic/heroku-buildpack-imagemagick-webp"
+      "url": "https://github.com/DarrenSG/heroku-buildpack-imagemagick"
     },
     {
       "url": "heroku/ruby"
