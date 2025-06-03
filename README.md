@@ -9,7 +9,7 @@ This buildpack works with BOTH [Heroku stack](https://devcenter.heroku.com/artic
 Add this buildpack to your app:
 
 ```plain
-heroku buildpacks:add https://github.com/drnic/heroku-buildpack-imagemagick-webp -i 1 -a <app name>
+heroku buildpacks:add https://github.com/tourhero/heroku-buildpack-imagemagick -i 1 -a <app name>
 ```
 
 And add it into your `app.json`:
@@ -17,7 +17,7 @@ And add it into your `app.json`:
 ```json
   "buildpacks": [
     {
-      "url": "https://github.com/DarrenSG/heroku-buildpack-imagemagick"
+      "url": "https://github.com/tourhero/heroku-buildpack-imagemagick"
     },
     {
       "url": "heroku/ruby"
